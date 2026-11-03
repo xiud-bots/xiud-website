@@ -139,10 +139,10 @@ export const App: React.FC = () => {
                 Dúvidas comerciais ou propostas de parcerias estratégicas?
               </span>
               <a
-                href="mailto:gabriel@xiud.com"
+                href="mailto:xiudsales@gmail.com"
                 className="inline-flex items-center gap-1.5 text-xs font-mono text-white bg-slate-800 hover:bg-slate-700 px-3.5 py-2 rounded-lg border border-white/[0.1] transition-colors"
               >
-                <span>Falar com a Diretoria</span>
+                <span>Falar com Atendimento Comercial</span>
                 <ArrowRight className="w-3.5 h-3.5 text-[#C5A880]" />
               </a>
             </div>

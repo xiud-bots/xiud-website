@@ -55,9 +55,7 @@ export const TerminalConsole: React.FC = () => {
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-1.5 pt-1 font-mono">
               <div><strong className="text-white">about</strong> — Sobre a XIU Development</div>
               <div><strong className="text-white">status</strong> — Telemetria e diagnóstico</div>
-              <div><strong className="text-white">agents</strong> — Rede autônoma de agentes</div>
               <div><strong className="text-white">stack</strong> — Tecnologias e padrões</div>
-              <div><strong className="text-white">founder</strong> — Liderança executiva</div>
               <div><strong className="text-white">contact</strong> — Canais de comunicação</div>
               <div><strong className="text-white">clear</strong> — Limpar terminal</div>
             </div>
@@ -68,12 +66,12 @@ export const TerminalConsole: React.FC = () => {
       case 'about':
         output = (
           <div className="space-y-2 text-xs text-slate-300 leading-relaxed">
-            <p className="text-white font-semibold">XIUD (XIU Development) — Manifesto</p>
+            <p className="text-white font-semibold">XIUD (XIU Development) — Visão Institucional</p>
             <p>
-              Somos um estúdio de engenharia avançada de software dedicado à criação de produtos digitais com velocidade extrema, confiabilidade militar e arquitetura orientada por inteligência artificial.
+              Somos um estúdio de engenharia avançada de software dedicado à criação de produtos digitais com velocidade extrema, alta confiabilidade e arquitetura de ponta orientada por inteligência artificial.
             </p>
             <p className="text-slate-400">
-              Operamos com squads híbridas onde engenheiros humanos seniores colaboram com agentes autônomos cognitivos, estabelecendo um novo paradigma de produtividade e qualidade técnica.
+              Desenvolvemos aplicações web de alta performance, plataformas escaláveis e ecossistemas inteligentes prontos para o mercado global.
             </p>
           </div>
         );
@@ -83,27 +81,10 @@ export const TerminalConsole: React.FC = () => {
         output = (
           <div className="space-y-1 text-xs font-mono text-slate-300">
             <p className="text-emerald-400">● TODOS OS SISTEMAS OPERACIONAIS</p>
-            <p>• Gateway de IA: Conectado (OmniRoute / Anthropic / OpenAI)</p>
+            <p>• Gateway de IA: Conectado e Operacional</p>
             <p>• Repositórios GitHub: Sincronizados (xiud-bots)</p>
             <p>• Edge Deploy: Vercel CDN Ativa</p>
             <p>• Fator de Confiabilidade: 99.98%</p>
-          </div>
-        );
-        break;
-
-      case 'agents':
-        output = (
-          <div className="space-y-1.5 text-xs font-mono text-slate-300">
-            <p className="text-[#E5C388] font-bold">Core Staff de Agentes Autônomos XIUD:</p>
-            <ul className="space-y-1 pl-2 border-l border-white/[0.1]">
-              <li><span className="text-white font-semibold">@pixel</span> — Principal Frontend Engineer & Design Engineer</li>
-              <li><span className="text-white font-semibold">@guido</span> — Principal Python & Backend Architect</li>
-              <li><span className="text-white font-semibold">@forge</span> — Platform & Cloud Infrastructure Manager</li>
-              <li><span className="text-white font-semibold">@chrome</span> — Principal Chrome Extension Architect</li>
-              <li><span className="text-white font-semibold">@curie</span> — Senior Research & Intelligence Specialist</li>
-              <li><span className="text-white font-semibold">@potz</span> — Head of Agent Resources & Cognition</li>
-              <li><span className="text-white font-semibold">@edith</span> — Executive Chief of Staff & Tactical Dispatcher</li>
-            </ul>
           </div>
         );
         break;
@@ -112,21 +93,10 @@ export const TerminalConsole: React.FC = () => {
         output = (
           <div className="space-y-1 text-xs font-mono text-slate-300">
             <p className="text-sky-400 font-bold">Stack Tecnológica Primária:</p>
-            <p>• Frontend: React 19, TypeScript, Next.js, Vite, Tailwind CSS, shadcn/ui</p>
+            <p>• Frontend: React 19, TypeScript, Next.js, Vite, Tailwind CSS</p>
             <p>• Backend: Python (FastAPI), Node.js, Go, PostgreSQL, Redis</p>
-            <p>• Agentes & IA: Hermes Agent, LangGraph, DSPy, OpenAI/Anthropic APIs</p>
-            <p>• Infraestrutura: Docker, Vercel, Cloudflare Tunnels, GitHub Actions</p>
-          </div>
-        );
-        break;
-
-      case 'founder':
-        output = (
-          <div className="space-y-1.5 text-xs text-slate-300">
-            <p className="text-white font-semibold">Gabriel Aragão (@domaragao)</p>
-            <p className="text-slate-400">
-              CEO, CTO & Head de Produto da XIU Development. Visionário em arquitetura de sistemas distribuídos, inteligência artificial agêntica e engenharia de software de alta performance.
-            </p>
+            <p>• Agentes & IA: Automação Cognitiva, DSPy, Modelos de Linguagem Avançados</p>
+            <p>• Infraestrutura: Docker, Vercel, Cloudflare, GitHub Actions</p>
           </div>
         );
         break;
@@ -135,7 +105,7 @@ export const TerminalConsole: React.FC = () => {
         output = (
           <div className="space-y-1 text-xs font-mono text-slate-300">
             <p className="text-[#E5C388] font-bold">Canais Oficiais de Contato:</p>
-            <p>• E-mail Direto: <a href="mailto:gabriel@xiud.com" className="text-white underline hover:text-[#C5A880]">gabriel@xiud.com</a></p>
+            <p>• Contato Comercial: <a href="mailto:xiudsales@gmail.com" className="text-white underline hover:text-[#C5A880]">xiudsales@gmail.com</a></p>
             <p>• Organização GitHub: <a href="https://github.com/xiud-bots" target="_blank" rel="noreferrer" className="text-white underline hover:text-[#C5A880]">github.com/xiud-bots</a></p>
           </div>
         );
@@ -214,7 +184,7 @@ export const TerminalConsole: React.FC = () => {
             <Sparkles className="w-3 h-3 text-[#C5A880]" />
             Atalhos:
           </span>
-          {['about', 'status', 'agents', 'stack', 'founder', 'contact'].map((cmd) => (
+          {['about', 'status', 'stack', 'contact'].map((cmd) => (
             <button
               key={cmd}
               onClick={() => executeCommand(cmd)}

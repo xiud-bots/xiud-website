@@ -1,5 +1,5 @@
 import React from 'react';
-import { Globe, Shield, Heart } from 'lucide-react';
+import { Globe, Shield } from 'lucide-react';
 import { GithubIcon } from './GithubIcon';
 
 export const Footer: React.FC = () => {
@@ -21,15 +21,13 @@ export const Footer: React.FC = () => {
           </div>
         </div>
 
-        {/* Info & Leadership */}
+        {/* Info & Contact */}
         <div className="text-center md:text-left text-xs font-mono space-y-1">
           <p className="text-slate-300">
-            Liderança Executiva: <span className="text-[#C5A880] font-semibold">Gabriel Aragão</span> (@domaragao)
+            Divisão de Engenharia & Inovação Digital
           </p>
-          <p className="text-slate-500 flex items-center justify-center md:justify-start gap-1">
-            <span>Construído com excelência pelo</span>
-            <span className="text-slate-400 font-semibold">Core Staff XIUD</span>
-            <Heart className="w-3 h-3 text-[#C5A880] inline fill-[#C5A880]/20" />
+          <p className="text-slate-500">
+            Contato Comercial: <a href="mailto:xiudsales@gmail.com" className="text-[#C5A880] hover:underline">xiudsales@gmail.com</a>
           </p>
         </div>
 

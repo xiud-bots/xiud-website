@@ -13,12 +13,12 @@ export const TelemetrySection: React.FC = () => {
       progress: 96,
     },
     {
-      label: 'Rede de Agentes IA',
+      label: 'Inteligência & IA',
       value: 'OPERACIONAL',
-      status: '10 Agentes Ativos',
+      status: 'Workflows Ativos',
       icon: Network,
       color: 'from-sky-400 to-blue-500',
-      desc: 'Orquestração Autônoma Hermes Core',
+      desc: 'Sistemas Autônomos & Cognição',
       progress: 100,
     },
     {
@@ -27,7 +27,7 @@ export const TelemetrySection: React.FC = () => {
       status: 'Pixel-Engineered',
       icon: Layers,
       color: 'from-emerald-400 to-teal-500',
-      desc: 'React 19 • Tailwind CSS • Framer',
+      desc: 'React 19 • Tailwind CSS • Vite',
       progress: 92,
     },
     {
